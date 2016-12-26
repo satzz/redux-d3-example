@@ -164,8 +164,11 @@ new Pug({
 Pug is what was formerly known as Jade.
 
 ### CSS
+`react-input-range` provides a component with a slider input interface.
 
-`react-input-range` provides default scss files, which are copied and located in our `scss/`.
+- https://github.com/davidchin/react-input-range
+
+It provides default scss files, which are copied and located in our `scss/`.
 These scss files are released under the MIT license.(https://github.com/davidchin/react-input-range/blob/master/LICENSE)
 
 With Webpack, CSS also could be modularized. We only have to include `InputRange.scss` as an entry point.
@@ -192,12 +195,7 @@ I cannot explain everything here, but the tutorial and the table here should be 
 
 Usually we separate these layers by directory structure and export functions and objects to each other, but we don't do so and write everything in our `client.js`, just to keep our understanding simple.
 
-Let's see a simple presentational component, `Slider`.
-`react-input-range` provides a component with a slider input interface.
-
-- https://github.com/davidchin/react-input-range
-
-We can write it as a stateless functional component, which keeps the component pretty simple. We do not see `render`.
+Let's see a simple presentational component, `Slider`. We can write it as a stateless functional component, which keeps the component pretty simple. We do not see `render`.
 
 
 `client.js`:
